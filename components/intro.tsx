@@ -2,20 +2,11 @@ import { CMS_NAME } from '../lib/constants'
 
 const Intro = () => {
   return (
-    <section className="flex-col md:flex-row flex items-center md:justify-between mt-16 mb-16 md:mb-12">
-      <h1 className="text-5xl md:text-8xl font-bold tracking-tighter leading-tight md:pr-8">
-        Blog.
-      </h1>
-      <h4 className="text-center md:text-left text-lg mt-5 md:pl-8">
-        A statically generated blog example using{' '}
-        <a
-          href="https://nextjs.org/"
-          className="underline hover:text-blue-600 duration-200 transition-colors"
-        >
-          Next.js
-        </a>{' '}
-        and {CMS_NAME}.
-      </h4>
+    <section className="flex items-center md:justify-evenly h-96 bg-gradient-to-r from-purple-500 to-pink-500  mb-11 md:mb-11 introHAX">
+  
+  <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white"> {'<'}Goodnight Sir{'>'} <mark className="px-2 text-white bg-red-600 rounded dark:bg-red-600">Area-52</mark> </h1>
+<p className="text-lg font-normal text-gray-500 lg:text-xl dark:text-gray-400">Achieving the impossible.</p>
+
     </section>
   )
 }
